@@ -41,7 +41,7 @@ def download_track(track_name):
             yt = YouTube(url)
             video = yt.streams.filter(only_audio=True).first()
             # Скачивание трека в формате mp3
-            video.download(output_path="D:/test", filename=f"{track_name}.mp3")
+            video.download(output_path="D:/test", filename=f"{track_name}.mp3")    # ПУТЬ ДЛЯ СКАЧИВАНИЯ ТРЭКОВ!!! ИЗМЕНИТЬ ПРИ НЕОБХОДИМОСТИ!!!!
             logging.info(f"Скачивание завершено: {track_name}")
             print(f"Трек с названием {track_name} скачан.")
             return True
