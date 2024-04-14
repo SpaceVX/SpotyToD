@@ -22,10 +22,10 @@ SpotyToD - это инструмент, который автоматизиру�
      git clone https://github.com/SpaceVX/SpotyToD.git
      cd SpotyToD
      ```
-   - Отредактируйте файл `main.py`, установив значения `client_id`, `client_secret`, и `redirect_uri`.
+   - Отредактируйте файл `spotyToD.py`, установив значения `client_id`, `client_secret`, и `redirect_uri`.
    - Запустите программу, выполните:
      ```
-     python main.py
+     python spotyToD.py
      ```
 
 ## Как это работает
